@@ -1,7 +1,10 @@
-printCharacterStats(4)
-printCharacterStats('ten')
-printCharacterStats(10)
-
+try{
+  printCharacterStats(4)
+  printCharacterStats('ten')
+  printCharacterStats(10)
+} catch (err) {
+  console.log(`An error was thrown: ${err}`);
+}
 // don't touch below this line
 
 function printCharacterStats(level) {

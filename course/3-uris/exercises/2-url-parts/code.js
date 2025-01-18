@@ -1,6 +1,6 @@
 function printURLParts(urlString) {
   const urlObj = new URL(urlString)
-  // ?
+   
 }
 
 // don't touch below this line
